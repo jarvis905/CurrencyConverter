@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     protected void convert(View view)  {
         EditText dollarfield = (EditText) findViewById(R.id.dollarfield);
         Double dollarAmount = Double.parseDouble(dollarfield.getText().toString());
-        Double inrAmount = dollarAmount * 70.0;
+        Double inrAmount = dollarAmount * 60.0;
         Toast.makeText(getApplicationContext(), "INR " + inrAmount.toString(), Toast.LENGTH_LONG).show();
     }
 
